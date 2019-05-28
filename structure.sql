@@ -6,6 +6,7 @@ CREATE TABLE users (
 	last_name varchar(50) NOT NULL,
 	username varchar(50) NOT NULL,
 	email varchar(50) NOT NULL UNIQUE,
+	status boolean(),
 	password varchar(50) NOT NULL,
 	date_of_birth date,
 	created_at datetime DEFAULT now(),
