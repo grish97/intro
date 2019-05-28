@@ -1,6 +1,7 @@
 <?php
 
 $super = [];
+$user = "1";
 
 function super_set($key, $value) {
 	global $super;
